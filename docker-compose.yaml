@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   frontend:
     build:
@@ -7,5 +5,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
-    container_name: memory
+    container_name: memory_frontend
     restart: unless-stopped
